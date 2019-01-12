@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="2dp">
+        <TextView
+            android:id="@+id/tvitemqty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0x"
+            android:textColor="@color/colorPrimary"/>
+        <TextView
+            android:id="@+id/tvitemmenu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Nama makanan"/>
+
+        <TextView
+            android:id="@+id/tvitemharga"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Rp 0"
+            android:gravity="right"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimary"/>
+    </LinearLayout>
+
+</RelativeLayout>
